@@ -22,7 +22,7 @@ const PredictorPage = () => {
     setError(null);
 
     try {
-      const response = await axios.post("http://localhost:5001/api/predict", formData);
+      const response = await axios.post("https://student-lms-hrm4.onrender.com/api/predict", formData);
       setResults(response.data);
     } catch (err) {
       setError(err.response?.data?.message || "Something went wrong");
