@@ -1,0 +1,9 @@
+{
+    "restartable": "rs",
+    "ignore": ["*.test.js", "node_modules"],
+    "verbose": true,
+    "events": {
+      "restart": "kill -9 $(lsof -t -i:5000) 2>/dev/null"
+    }
+  }
+  
