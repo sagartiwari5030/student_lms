@@ -19,7 +19,7 @@ const CLIENT_URL= process.env.CLIENT_URL;
 
 app.use(
   cors({
-    origin:"http://localhost:5173",
+    origin:"https://student-lms-1.onrender.com",
     methods: ["GET", "POST", "DELETE", "PUT"],
     allowedHeaders: ["Content-Type", "Authorization"],
     credentials: true,
