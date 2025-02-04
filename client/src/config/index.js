@@ -74,13 +74,8 @@ export const courseCategories = [
   { id: "NEET", label: "NEET" },
   { id: "CBSE", label: "CBSE" },
   { id: "UP", label: "UP Board" },
-  { id: "machine-learning", label: "Machine Learning" },
   { id: "artificial-intelligence", label: "Artificial Intelligence" },
-  { id: "cloud-computing", label: "Cloud Computing" },
-  { id: "cyber-security", label: "Cyber Security" },
-  { id: "mobile-development", label: "Mobile Development" },
-  { id: "game-development", label: "Game Development" },
-  { id: "software-engineering", label: "Software Engineering" },
+  
 ];
 
 export const counsellingCategories = [
