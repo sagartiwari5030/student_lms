@@ -19,7 +19,7 @@ function StudentViewCommonHeader() {
         <Link to="/home" className="flex items-center hover:text-black">
           <GraduationCap className="h-8 w-8 mr-4 " />
           <span className="font-extrabold md:text-xl text-[14px]">
-            College Guidance
+           The Wave Classes
           </span>
         </Link>
         <div className="flex items-center space-x-1">
@@ -35,7 +35,9 @@ function StudentViewCommonHeader() {
             Explore Courses
           </Button>
         </div>
-        <div className="flex items-center space-x-1">
+
+        
+        {/* <div className="flex items-center space-x-1">
           <Button
             variant="ghost"
             onClick={() => {
@@ -47,7 +49,9 @@ function StudentViewCommonHeader() {
           >
             Explore Predictors
           </Button>
-        </div>
+        </div> */}
+
+
       </div>
       <div className="flex items-center space-x-4">
         <div className="flex gap-4 items-center">

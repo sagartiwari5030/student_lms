@@ -70,7 +70,7 @@ export const courseLevelOptions = [
 ];
 
 export const courseCategories = [
-  { id: "web-development", label: "Web Development" },
+  { id: "JEE", label: "JEE MAINS/ADVANCE" },
   { id: "Full Stcak-development", label: "MERN STACK" },
   { id: "backend-development", label: "Backend Development" },
   { id: "data-science", label: "Data Science" },
