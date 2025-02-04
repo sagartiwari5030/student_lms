@@ -71,9 +71,9 @@ export const courseLevelOptions = [
 
 export const courseCategories = [
   { id: "JEE", label: "JEE MAINS/ADVANCE" },
-  { id: "Full Stcak-development", label: "MERN STACK" },
-  { id: "backend-development", label: "Backend Development" },
-  { id: "data-science", label: "Data Science" },
+  { id: "NEET", label: "NEET" },
+  { id: "CBSE", label: "CBSE" },
+  { id: "UP", label: "UP Board" },
   { id: "machine-learning", label: "Machine Learning" },
   { id: "artificial-intelligence", label: "Artificial Intelligence" },
   { id: "cloud-computing", label: "Cloud Computing" },
