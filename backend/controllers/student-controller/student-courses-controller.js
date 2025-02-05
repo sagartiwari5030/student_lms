@@ -15,7 +15,7 @@ const getCoursesByStudentId = async (req, res) => {
     console.log(error);
     res.status(500).json({
       success: false,
-      message: "Some error occured!",
+      message: "Some error occured! ",
     });
   }
 };

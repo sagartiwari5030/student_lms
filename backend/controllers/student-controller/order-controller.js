@@ -179,7 +179,7 @@ const capturePaymentAndFinalizeOrder = async (req, res) => {
     console.log(err);
     res.status(500).json({
       success: false,
-      message: "Some error occured!",
+      message: "Some error occured! ",
     });
   }
 };

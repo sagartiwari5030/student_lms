@@ -17,7 +17,7 @@ const addNewCourse = async (req, res) => {
     console.log(e);
     res.status(500).json({
       success: false,
-      message: "Some error occured!",
+      message: "Some errorrr occured!",
     });
   }
 };
@@ -59,7 +59,7 @@ const getCourseDetailsByID = async (req, res) => {
     console.log(e);
     res.status(500).json({
       success: false,
-      message: "Some error occured!",
+      message: "Some error occured! ",
     });
   }
 };
@@ -91,7 +91,7 @@ const updateCourseByID = async (req, res) => {
     console.log(e);
     res.status(500).json({
       success: false,
-      message: "Some error occured!",
+      message: "fff",
     });
   }
 };

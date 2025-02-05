@@ -57,7 +57,7 @@ const getAllStudentViewCourses = async (req, res) => {
     console.log(e);
     res.status(500).json({
       success: false,
-      message: "Some error occured!",
+      message: "Some error occured! ",
     });
   }
 };
@@ -105,7 +105,7 @@ const checkCoursePurchaseInfo = async (req, res) => {
     console.log(e);
     res.status(500).json({
       success: false,
-      message: "Some error occured!",
+      message: "Some error occuredffff!",
     });
   }
 };
